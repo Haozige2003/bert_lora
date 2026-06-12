@@ -1,0 +1,992 @@
+[
+  {
+    "text": "KTV音响杂音明显，麦克风接触不良，时不时断音",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "网咖主机配置老旧，运行大型游戏频繁卡顿、画面掉帧",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "密室场景狭小压抑，机关设计简陋，完全不值票价",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "台球桌台面凹凸不平，球杆杆头磨损严重，击球手感很差",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "健身房各类器械积满灰尘，地面还有杂物，卫生状况堪忧",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "足浴技师手法敷衍应付，全程不停推销高价套餐，让人反感",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "影厅空调温度过低，冷风直吹，整场观影都觉得寒冷不适",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "包厢墙体隔音差，隔壁房间歌声、说话声听得一清二楚",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "网咖网络延迟很高，加载游戏、浏览网页经常超时断开",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "门店整体光线昏暗，装修老旧，待久了让人心情压抑",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "前台工作人员态度冷漠，咨询问题敷衍回应，很不耐心",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "线上标价和到店收费不一致，存在多处隐形消费",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "等候区没有座椅，排队人群只能全程站立，十分不便",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "公共卫生间脏乱不堪，地面积水、气味刺鼻，也没有热水",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "门店标注营业时间与实际不符，多次到店发现提前打烊",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "团购套餐限制条款繁多，多数优惠内容无法正常使用",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "实际场地面积远小于宣传图片，存在明显夸大宣传问题",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "场内设备老化严重，使用中途频繁出现故障被迫停止",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "工作人员专业能力不足，设备出问题后无法及时维修",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "游乐园热门项目排队动辄一两小时，排队秩序也很混乱",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "桌游馆卡牌缺失严重，多款热门桌游都无法正常游玩",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "轰趴馆厨具油污厚重，餐具清洗不到位，卫生不达标",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "射箭馆护具出现破损，防护效果下降，存在安全隐患",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "剧场演出内容敷衍，时长缩水，节目质量达不到预期",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "电玩城大半游戏机失灵，投币后没有任何反应",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "场馆通风系统效果差，人员密集时空气浑浊、闷热难耐",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "配套停车位数量稀少，驾车前来基本找不到空位",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "店内零食、饮品售价远高于市场价，定价很不合理",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "还未到结束时间，工作人员就反复催促顾客离场",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "剧本杀剧本逻辑混乱，剧情漏洞百出，游玩体验很差",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "轮滑场地地面局部打滑，配套防护装备数量供应不足",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "陶艺馆工具老化生锈，陶土品质一般，成品容易开裂变形",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "猫咖环境清理不及时，猫咪精神萎靡，室内异味明显",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "手作工坊原材料偷工减料，制作出的成品粗糙难看",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "店内背景音乐音量过大，正常交谈都需要大声喊话",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "灯光频繁闪烁，光线不稳定，长时间观看容易眼疲劳",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "舞台道具做工简陋，布景单调，整体观感十分普通",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "互动环节设计生硬无趣，参与感弱，气氛十分尴尬",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "包间内蚊虫较多，休息、娱乐时频繁被叮咬",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "运动场馆地面有凸起，跑动时很容易绊倒，存在危险",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "收费标准频繁变动，没有统一价格，让人难以接受",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "储物柜门锁损坏，存放物品没有安全保障",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "场内指示牌缺失，第一次来很容易迷路找不到位置",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "饮品区杯子反复使用，没有彻底消毒，卫生让人担心",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "休息沙发表层破损，弹簧外露，坐上去很不舒服",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "这家影院画面清晰度高，环绕音效震撼，观影体验拉满",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "KTV曲库更新速度快，音响音质出色，整体性价比很高",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "网咖整机配置高端，千兆网速流畅，大型游戏运行无压力",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "密室剧情环环相扣，场景布置精致，解谜过程趣味十足",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "台球桌平整顺滑，球杆做工精良，球台间距合理很舒适",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "健身房器械种类齐全，场地宽敞明亮，每日都会定时清洁",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "足浴技师手法专业力道适中，全程无推销，服务体验很好",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "影院座椅柔软厚实，排距充足，久坐也不会觉得拥挤劳累",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "包厢隔音效果优秀，互不干扰，尽情唱歌也不用担心影响他人",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "门店装修风格时尚简约，整体氛围轻松惬意，让人身心放松",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "前台服务人员热情友善，详细讲解各类套餐，耐心又周到",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "店内明码标价，价格实惠公道，全程没有任何隐形消费",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "等候区沙发柔软舒适，还提供免费茶水、小零食贴心服务",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "店内各个区域打扫得干干净净，角落也没有卫生死角",
+    "true_label": 1,
+    "pred_label": 0,
+    "is_correct": false
+  },
+  {
+    "text": "门店严格按照标注时间营业，团购套餐使用规则简单无限制",
+    "true_label": 1,
+    "pred_label": 0,
+    "is_correct": false
+  },
+  {
+    "text": "实际场地宽敞明亮，布局合理，游玩、活动空间十分充足",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "全场设备定期检修维护，运行稳定，全程不会出现故障",
+    "true_label": 1,
+    "pred_label": 0,
+    "is_correct": false
+  },
+  {
+    "text": "工作人员响应迅速，遇到问题第一时间上门处理，效率很高",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "游乐园游玩项目丰富多样，现场秩序维护到位，排队效率高",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "桌游馆桌游品类齐全，老板还会主动讲解玩法，十分贴心",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "轰趴馆设施一应俱全，厨具餐具干净整洁，特别适合朋友聚会",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "射箭馆防护装备齐全完好，教练一对一指导，安全又专业",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "剧场节目内容精彩丰富，舞台灯光绚丽，票价性价比十足",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "电玩城设备运行流畅，游戏种类覆盖广，大人小孩都能找到乐趣",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "场馆通风效果优秀，温湿度适宜，待上一整天也不会闷热",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "停车场车位充足，进出便捷，驾车出行完全不用担心停车问题",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "店内零食饮品定价亲民，种类丰富，不用额外外出采购",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "工作人员态度温和，临近结束也不会催促顾客，体验感很好",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "剧本杀剧本剧情精彩，主持人控场能力强，沉浸感十足",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "轮滑场地地面平整防滑，防护装备充足，安全系数很高",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "陶艺馆原料品质上乘，老师手把手教学，新手也能做出好看成品",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "猫咖环境每日消杀，猫咪温顺粘人，氛围治愈又温馨",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "手作店用料扎实，教程清晰易懂，完成的成品满意度很高",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "店内背景音乐轻柔舒缓，音量适中，营造出惬意的休闲氛围",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "室内灯光柔和不刺眼，光线分布均匀，视觉感受很舒适",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "舞台灯光效果绚丽多彩，节目编排紧凑连贯，观感极佳",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "互动游戏趣味十足，全员都能参与，现场气氛热烈欢快",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "包间干净整洁无异味，空间宽敞，休闲娱乐十分舒心",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "全场音效层次分明，高低音均衡，视听享受非常出色",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "场地每场结束后都会全面清扫维护，环境一直保持良好",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "店内服务流程规范，从进店引导到离场送别都很贴心",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "所有设施定期检修保养，使用稳定可靠，让人十分安心",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "综合对比周边同类门店，这家性价比遥遥领先，会经常光顾",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "饮品制作速度慢，点单之后等待十几分钟才能拿到",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "桌面粘腻有油污，擦拭过后依旧留有痕迹",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "服务人员分工混乱，喊半天都没人回应",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "空调出风口积灰严重，吹出来的风带有异味",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "楼道墙面有掉漆、污渍，整体观感粗糙",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "手环、手牌做工劣质，佩戴起来很不舒服",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "寄存柜空间狭小，大件物品根本放不下",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "广播音量忽大忽小，播报内容也含糊不清",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "地面地砖松动，走路时发出异响",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "提供的一次性用品质量差，基本无法正常使用",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "饮品制作出餐速度快，口味也符合大众喜好",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "桌面擦拭得一尘不染，整洁度让人满意",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "店内人员分工明确，随叫随到，服务效率很高",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "空调定期深度清洁，出风清新，没有任何异味",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "公共区域墙面完好干净，整体装修维护到位",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "入场手牌材质舒适，设计简约，佩戴毫无不适感",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "寄存柜空间充足，大小物件都能妥善存放",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "店内广播音量适中，播报清晰，提示信息一目了然",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "地面地砖牢固平整，行走安静又安全",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "一次性用品品质过关，实用又贴心",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "户外区域蚊虫泛滥，没有做驱蚊处理",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "遮阳棚破损漏雨，下雨时无法正常遮挡",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "休闲桌椅数量不足，高峰期只能站着休息",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "指示标识模糊不清，字体掉色难以辨认",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "垃圾桶清理不及时，垃圾外溢气味难闻",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "扶手栏杆生锈打滑，抓握起来很不安全",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "音响设备偶尔断连，播放歌曲断断续续",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "灯光组合搭配怪异，整体氛围显得压抑",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "活动道具数量不足，多人游玩不够分配",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "收费票据开具流程复杂，耗时很久",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "户外区域做了完善驱蚊措施，游玩不受蚊虫打扰",
+    "true_label": 1,
+    "pred_label": 0,
+    "is_correct": false
+  },
+  {
+    "text": "遮阳棚牢固完好，遮阳挡雨效果都很不错",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "休闲桌椅数量充足，无论何时都有休息位置",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "场内指示牌清晰醒目，字体完好，指引方向一目了然",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "垃圾桶定时清理，周边干净整洁，没有异味",
+    "true_label": 1,
+    "pred_label": 0,
+    "is_correct": false
+  },
+  {
+    "text": "扶手栏杆定期除锈保养，稳固防滑，使用安全",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "音响设备连接稳定，播放流畅，音质始终在线",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "灯光组合温馨自然，整体氛围轻松愉悦",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "活动道具储备充足，多人同时游玩也完全够用",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "票据开具简单快捷，工作人员操作熟练",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "线上预约系统故障，预约成功到店却查不到信息",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "团购核销流程繁琐，需要反复核对信息",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "会员权益形同虚设，多数福利都无法兑现",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "店内绿植枯萎杂乱，无人修剪打理",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "门轴卡顿异响，开关门体验很差",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "窗帘破损透光，遮挡效果大打折扣",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "地面防滑垫移位，容易绊倒行人",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "提供的充电宝电量虚标，续航能力很差",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "雨伞租借流程复杂，归还地点不明确",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "手机信号盲区多，场内大部分区域网速很差",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "线上预约系统运行稳定，到店核验流程简单高效",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "团购核销一步到位，操作简单不繁琐",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "会员权益真实有效，各项福利都能正常享受",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "店内绿植长势良好，修剪整齐，装点环境很美观",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "门店门轴保养到位，开关门顺畅无杂音",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "窗帘完好厚实，遮光、保护隐私效果都很好",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "防滑垫固定牢固，行走安全，防滑效果出色",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "共享充电宝电量充足，续航和标注完全一致",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "雨伞租借规则清晰，借还点位多，使用很方便",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "全场网络信号全覆盖，网速稳定，刷视频、上网都流畅",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "服装租赁款式老旧，面料粗糙还有异味",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "道具服装尺码不全，大部分人群都无法适配",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "化妆用品重复使用，没有进行消毒处理",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "拍摄背景板歪扭，布景简单不上镜",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "拍照设备像素低，拍出来的画面模糊",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "修图敷衍潦草，基本没有美化效果",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "取片等待时间过长，约定时间屡次延后",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "场地背景杂乱，杂物随意堆放",
+    "true_label": 0,
+    "pred_label": 0,
+    "is_correct": true
+  },
+  {
+    "text": "服装尺码覆盖全面，大人小孩都能选到合适款式",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "化妆工具一客一消毒，卫生标准严格让人放心",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "拍摄布景精致大气，背景板稳固美观，出片效果好",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "拍摄设备像素高清，成像清晰，画面质感出众",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "后期修图细致用心，自然美观，符合大众审美",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "取片时间严格遵守约定，效率很高从不拖延",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "拍摄场地整洁有序，无杂物堆放，环境优美",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "灯光角度灵活可调，可根据拍摄需求自由切换",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  },
+  {
+    "text": "摄影师专业耐心，会主动引导姿势和表情",
+    "true_label": 1,
+    "pred_label": 1,
+    "is_correct": true
+  }
+]
