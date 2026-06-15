@@ -68,7 +68,7 @@ class ModelTester:
                 })
 
         print(f"\n预测错误的样本数: {len(wrong_samples)}")
-        for sample in wrong_samples[:5]:  # 只打印前5个
+        for sample in wrong_samples[:5]:  
             print(f"  样本 {sample['index']}: 真实={sample['true_label']}, 预测={sample['pred_label']}")
             print(f"    文本: {sample['text']}...")
 
