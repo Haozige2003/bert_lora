@@ -13,7 +13,6 @@ from transformers import (
 )
 from peft import LoraConfig, get_peft_model
 
-# 关掉烦人的警告
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 
@@ -83,7 +82,7 @@ class SentimentTrainer:
 
     def build_model(self):
         """构建带 LoRA 的模型"""
-        print("加载模型...")
+        print("加载模型")
         self.tokenizer = BertTokenizer.from_pretrained(self.model_name)
 
         base_model = BertForSequenceClassification.from_pretrained(
@@ -148,7 +147,7 @@ class SentimentTrainer:
             compute_metrics=self.compute_metrics
         )
 
-        print("开始训练...")
+        print("开始训练")
         trainer.train()
         trainer.save_model(output_dir)
         print(f"模型保存到: {output_dir}")
@@ -156,20 +155,20 @@ class SentimentTrainer:
 
 def main():
     # 配置
-    MODE = "train"  # train: 训练, predict: 预测（这里只保留训练）
+    MODE = "train" 
     TRAIN_FILE = "shop_2class.csv"
     MODEL_DIR = "./shop_sentiment_model"
 
     trainer = SentimentTrainer()
 
     if MODE == "train":
-        print("=== 训练模式 ===")
+        print("训练模式 ")
         df = trainer.load_data(TRAIN_FILE)
         train_df, val_df = trainer.split_data(df)
         trainer.build_model()
         train_dataset, val_dataset = trainer.prepare_dataset(train_df, val_df)
         trainer.train(train_dataset, val_dataset, MODEL_DIR)
-        print("训练完成！")
+        print("训练完成")
 
 
 if __name__ == "__main__":
