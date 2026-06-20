@@ -159,11 +159,6 @@ python test.py
 - 尝试其他参数高效微调方法（Adapter、Prefix-Tuning）
 
 
-## License
-
-MIT
-
-
 ## 作者
 
 倪皓轩 - [GitHub](https://github.com/Haozige2003)
